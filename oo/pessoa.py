@@ -1,4 +1,4 @@
-class Pessoa:
+class Pessoa:   #escrita CamelCase, podeira ser usado ExemploPessoa
     olhos = 2  #atributo de classe(pois pode ser acessado pela classe) ou atributo default (do inglês = parâmetro padrão)
 
     def __init__(self, *filhos, nome = None, idade = 35):
